@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <title>Conversores do Bruno</title>
+</head>
+
+<body>
+    <div class="background" id="inicio">
+        <header>
+            <ul>
+                <li>
+                    <a href="index.html#inicio">Início</a>
+                    <a href="index.html#calculadora">Calculadora</a>
+                    <a href="index.html#contador">Contador</a>
+                </li>
+            </ul>
+        </header>
+    </div> <!--background-->
+    <section id="separação">
+    <div id="titulocalculadora">
+    <h1> Calculadora </h1>
+    </div>
+    <div class="container" id="calculadora">
+        <div class="temperature-converter">
+            <input type="number" id="inputTemperature" placeholder="Digite a temperatura">
+            <select id="conversionType">
+                <option value="celsiusToFahrenheit">Celsius para Fahrenheit</option>
+                <option value="fahrenheitToCelsius">Fahrenheit para Celsius</option>
+            </select>
+            <button onclick="convertTemperature()">Converter</button>
+        </div>
+        <div id="result" class="result-box"></div>
+    </div>
+    </div> <!--Calculadora-->
+    </section>
+        <h1>Contador de Caracteres</h1>
+        <div class="container" id="contador">
+          <textarea id="texto" cols="30" rows="10"></textarea>
+          <button id="contar">Contar</button>
+          <span id="caracteres"></span>
+        </div>
+        <script src="script.js"></script>
+      </body>
+      </html>
+    </div> <!--Contador-->
+<footer>
+    <div class="InformaçõesAdicionais">
+        <p>Copyright @ Bruno Neves</p>
+    </div>
+</footer>
+</body>
+</html>
